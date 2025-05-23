@@ -9,7 +9,9 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 """
-docs: https://platform.openai.com/docs/guides/function-calling
+docs: 
+https://platform.openai.com/docs/guides/function-calling
+https://www.anthropic.com/engineering/building-effective-agents
 """
 
 # Define the tool (function) that we want to call

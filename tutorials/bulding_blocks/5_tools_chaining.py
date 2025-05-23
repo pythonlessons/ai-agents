@@ -1,5 +1,6 @@
 import os
 import json
+import math
 import requests
 from typing import List, Optional, Union, Type, Dict, Any
 
@@ -363,8 +364,8 @@ if __name__ == "__main__":
     )
     
     # Example user input
-    user_input = "What is the sum of current temperature in Paris and Berlin?"
-    # user_input = "What is the sum of current temperature in Paris?"
+    # user_input = "What is the current temperature in New York?"
+    user_input = "What is the sum of current temperature in Paris, Berlin and New York?"
     
     # Get response from agent
     response = agent.run(user_input, response_format=FinalResponse)
