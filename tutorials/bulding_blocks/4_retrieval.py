@@ -1,6 +1,5 @@
 import os
 import json
-import requests
 from openai import OpenAI
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
