@@ -1,11 +1,11 @@
 import os
 import json
-from typing import Dict, Any, List, Union, Optional
-from openai import OpenAI
-import vectorize_client as v, os
-from pydantic import BaseModel, Field
-from datetime import datetime
 import numpy as np
+import vectorize_client as v, os
+from openai import OpenAI
+from datetime import datetime
+from pydantic import BaseModel, Field
+from typing import Dict, Any, List, Union, Optional
 
 class RetrievalTool:
     def __init__(self, token: str, organization_id: str, pipeline_id: str, return_all_data: bool=False, name: str = "retrieve_documents", host="https://api.vectorize.io/v1"):

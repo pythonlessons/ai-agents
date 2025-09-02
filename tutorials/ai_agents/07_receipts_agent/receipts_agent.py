@@ -218,8 +218,8 @@ if __name__ == "__main__":
         if user_input.lower() in ["exit", "quit"]:
             break
 
-        # Run the agent with the user input
-        # Summarize my spending by category over all my purchases in 2014 ordering fron highest to lowest spent per category
+        # Run the agent with the user inputs:
+        # Summarize my spending by category over all my purchases in 2014 ordering from highest to lowest spent per category
         # Print my Walmart purchases with prices where I spent less than 10$ for each product in 2019
         # Summarize all my spendings from receipts by category, date of purchase, what I bought, where I bought it and how much it cost
         # Can you flag and list any unusual transactions from my purchase history?
