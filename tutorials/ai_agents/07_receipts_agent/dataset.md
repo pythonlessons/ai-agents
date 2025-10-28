@@ -1,0 +1,1 @@
+# Code uses dataset from https://www.kaggle.com/datasets/trainingdatapro/ocr-receipts-text-detection
